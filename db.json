@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": "2",
+      "name": "Treasure",
+      "email": "treasure@example.com",
+      "role": "Editor",
+      "status": "Inactive"
+    },
+    {
+      "id": "5d0d",
+      "name": "Sun",
+      "email": "sun@example.com",
+      "role": "Admin",
+      "status": "Inactive"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "name": "Admin",
+      "permissions": [
+        "Read",
+        "Write",
+        "Delete"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Editor",
+      "permissions": [
+        "Read",
+        "Write"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Viewer",
+      "permissions": [
+        "Read"
+      ]
+    }
+  ]
+}
